@@ -1,0 +1,29 @@
+/* File: src/ProductItem.css */
+.product-item {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.product-item:hover {
+  transform: scale(1.03);
+}
+
+.product-item h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product-item p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.price {
+  display: block;
+  margin-top: 0.75rem;
+  font-weight: bold;
+  color: #2c7a7b;
+}
